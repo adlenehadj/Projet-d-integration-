@@ -1,0 +1,12 @@
+﻿<Page x:Class="WpfApp14.InventairePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Inventaire">
+
+    <Grid Background="White">
+
+        <Button Content="Retour" Click="BtnRetour_Click" Width="200" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <DataGrid x:Name="dataGridInventaire" Margin="10,50,10,10" AutoGenerateColumns="True" />
+        <Button Content="Charger l'Inventaire" Click="BtnChargerInventaire_Click" Width="200" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Right" />
+    </Grid>
+</Page>
